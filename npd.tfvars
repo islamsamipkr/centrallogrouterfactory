@@ -13,5 +13,11 @@ folder_sink_config = [
     folder_id         = "110188140123132800"
     folder_name       = "folderexample"
     pubsub_topic_name = "pubsubtopic"
-    filter            = "severity>warning"
+    filter            = "severity>=\"WARNING\""
+  },
+{
+    project_id        = "asdad"
+    project_name      = "dasd"
+    pubsub_topic_name = "pubsubtopic"
+    filter            = "severity>=\"WARNING\""
   },
